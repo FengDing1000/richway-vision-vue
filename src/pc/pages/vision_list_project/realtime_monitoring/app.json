@@ -1,0 +1,235 @@
+{
+    "id": "67844fa8-7134-13fb-9a7b-5461f8326e54",
+    "code": "vision_list_project/realtime_monitoring",
+    "type": "component",
+    "title": "实时监视",
+    "icon": "menu_realtime_monitoring",
+    "url": "/vision_list_project/realtime_monitoring",
+    "fileName": "vision_list_project/realtime_monitoring",
+    "menu": true,
+    "navigation": true,
+    "sort": 1,
+    "platform": "pc",
+    "root": "$src/pc/pages/vision_list_project/realtime_monitoring",
+    "compiled": true,
+    "module": "realtimeMonitoring",
+    "target": "_single",
+    "method": "get",
+    "entry": "index.js",
+    "config": [
+        {
+            "id": "MapView",
+            "center": [
+                26.595353,
+                106.6602
+            ],
+            "zoom": 8,
+            "minZoom": 1,
+            "maxZoom": 18,
+            "regions": [
+                {
+                    "id": "BaseLayers",
+                    "title": "地图底图",
+                    "components": [
+                        {
+                            "title": "谷歌地图",
+                            "sort": 2,
+                            "list": [
+                                {
+                                    "id": "BusinessLayersGoogleVector",
+                                    "componentName": "MapBase-GoogleVector",
+                                    "config": {
+                                        "icon": "/map/googlemap.png",
+                                        "title": "谷歌矢量",
+                                        "sort": 2
+                                    }
+                                },
+                                {
+                                    "id": "BusinessLayersGoogleImage",
+                                    "componentName": "MapBase-GoogleImage",
+                                    "config": {
+                                        "icon": "/map/googleimage.png",
+                                        "title": "谷歌影像",
+                                        "sort": 3
+                                    }
+                                },
+                                {
+                                    "id": "BusinessLayersGoogleTerrain",
+                                    "componentName": "MapBase-GoogleTerrain",
+                                    "config": {
+                                        "icon": "/map/googletrain.png",
+                                        "title": "谷歌地形",
+                                        "sort": 4
+                                    }
+                                }
+                            ],
+                            "type": "google"
+                        },
+                        {
+                            "title": "天地图地图",
+                            "sort": 1,
+                            "list": [
+                                {
+                                    "id": "BusinessLayersTianDiTuVector",
+                                    "componentName": "MapBase-TianDiTuVector",
+                                    "config": {
+                                        "icon": "/map/tianditumap.png",
+                                        "title": "天地图矢量",
+                                        "sort": 5,
+                                        "active": true
+                                    }
+                                },
+                                {
+                                    "id": "BusinessLayersTianDiTuImage",
+                                    "componentName": "MapBase-TianDiTuImage",
+                                    "config": {
+                                        "icon": "/map/tiandituimage.png",
+                                        "title": "天地图影像",
+                                        "sort": 6
+                                    }
+                                },
+                                {
+                                    "id": "BusinessLayersTianDiTuTerrain",
+                                    "componentName": "MapBase-TianDiTuTerrain",
+                                    "config": {
+                                        "icon": "/map/tianditutrain.png",
+                                        "title": "天地图地形",
+                                        "sort": 7
+                                    }
+                                }
+                            ],
+                            "type": "tianditu"
+                        }
+                    ]
+                },
+                {
+                    "id": "BusinessLayers",
+                    "title": "业务图层",
+                    "components": [
+                        {
+                            "id": "BusinessLayersVideoSite",
+                            "componentName": "Map-Business-Layers-VideoSite",
+                            "config": {
+                                "code": "BusinessLayersVideoSite",
+                                "layerGroupName": "VideoSite",
+                                "title": "视频监视站",
+                                "icon": "Map-Icon-VideoSite",
+                                "init": true,
+                                "controllByLayer": false,
+                                "controllByLegend": true,
+                                "legendSort": 13,
+                                "subscribeKey": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Controls",
+                    "title": "控制按钮",
+                    "components": [
+                        {
+                            "id": "MapControlsBaseLayer",
+                            "componentName": "Map-Controls-BaseLayer",
+                            "config": {
+                                "position": "left-bottom",
+                                "sort": 4
+                            }
+                        },
+                        {
+                            "id": "MapControlsAim",
+                            "componentName": "Map-Controls-Aim",
+                            "config": {
+                                "position": "left-bottom",
+                                "sort": 3
+                            }
+                        },
+                        {
+                            "id": "MapControlsBusinessLayer",
+                            "componentName": "Map-Controls-BusinessLayer",
+                            "config": {
+                                "position": "left-bottom",
+                                "sort": 5
+                            }
+                        },
+                        {
+                            "id": "MapControlsZoom",
+                            "componentName": "Map-Controls-Zoom",
+                            "config": {
+                                "position": "left-bottom",
+                                "sort": 1
+                            }
+                        },
+                        {
+                            "id": "MapControlsBaseLegend",
+                            "componentName": "Map-Controls-Base-Legend",
+                            "config": {
+                                "position": "left-bottom",
+                                "sort": 2
+                            }
+                        },
+                        {
+                            "id": "MapControlsAttr",
+                            "componentName": "Map-Controls-Attr",
+                            "config": {
+                                "position": "left-top",
+                                "sort": 1
+                            }
+                        },
+                        {
+                            "id": "MapControlsRegion",
+                            "componentName": "Map-Controls-Region",
+                            "config": {
+                                "position": "left-top",
+                                "sort": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Plugins",
+                    "title": "地图插件",
+                    "components": [
+                        {
+                            "id": "MapPluginsBoundary",
+                            "componentName": "Map-Plugins-Boundary",
+                            "config": {
+                                "inside": {
+                                    "color": "#9a9a9a",
+                                    "weight": 2
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "MapBusiness",
+            "components": [
+                {
+                    "id": "MapBusinessMonitorContainerBase",
+                    "componentName": "Map-Business-Monitor-ContainerBase",
+                    "config": {
+                        "position": "right",
+                        "sort": 3
+                    },
+                    "subComponents": [
+                        {
+                            "id": "MapBusinessMonitorSiteList",
+                            "componentName": "Map-Business-Monitor-Site-List",
+                            "config": {
+                                "title": "测站列表",
+                                "icon": "icon-monitor",
+                                "sort": 4
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "mustLogin": true,
+    "keepAlive": false,
+    "describe": "",
+    "componentName": "RealtimeMonitoring"
+}

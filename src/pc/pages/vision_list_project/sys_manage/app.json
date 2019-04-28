@@ -1,0 +1,18 @@
+{
+    "id": "e7e1e1db-7134-13fb-9a7b-54e27f1065f8",
+    "code": "vision_list_project/sys_manage",
+    "type": "",
+    "title": "系统管理",
+    "icon": "icon-network",
+    "url": "/vision_list_project/sys_manage",
+    "fileName": "vision_list_project/sys_manage",
+    "menu": true,
+    "navigation": true,
+    "sort": 999,
+    "platform": "pc",
+    "root": "$src/pc/pages/vision_list_project/sys_manage",
+    "compiled": true,
+    "module": "sysManage",
+    "target": "_blank",
+    "open": 0
+}

@@ -1,0 +1,11 @@
+{
+  "npm-scripts.showStartNotification": false,
+  "html.format.endWithNewline": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "editor.formatOnType": true,
+  "html.format.indentInnerHtml": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+  "docthis.includeMemberOfOnClassMembers": false
+}

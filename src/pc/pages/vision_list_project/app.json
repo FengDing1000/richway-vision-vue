@@ -1,0 +1,39 @@
+{
+    "id": "76259546-1134-13fb-9a7b-52091efa499c",
+    "code": "vision_list_project",
+    "type": "root",
+    "title": "物联网平台",
+    "icon": "icon-network",
+    "url": "/",
+    "fileName": "vision_list_project",
+    "menu": false,
+    "navigation": false,
+    "sort": 3,
+    "platform": "pc",
+    "root": "$src/pc/pages/vision_list_project",
+    "compiled": true,
+    "module": "undefined",
+    "target": "_blank",
+    "method": "get",
+    "entry": "index.js",
+    "config": [],
+    "mustLogin": false,
+    "keepAlive": true,
+    "keysWords": "",
+    "description": "",
+    "ico": "",
+    "logo": "/images/logo.png",
+    "template": "index.html",
+    "css": [
+        "/assets/css/leaflet.css"
+    ],
+    "preJS": [
+        "/assets/js/leaflet.min.js",
+        "/assets/js/jquery-3.3.1.min.js",
+        "/assets/js/vue.min.js",
+        "/assets/js/element-ui-2.4.8.min.js",
+        "/assets/js/moment-2.22.2.min.js"
+    ],
+    "js": [],
+    "layoutId": "Layout-Base"
+}
