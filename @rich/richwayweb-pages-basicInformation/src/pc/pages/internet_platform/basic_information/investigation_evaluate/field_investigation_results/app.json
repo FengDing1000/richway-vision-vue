@@ -1,0 +1,17 @@
+{
+    "id": "b24cb4fc-4133-f00b-7fc7-1396ee1ab19e",
+    "code": "internet_platform/basic_information/investigation_evaluate/field_investigation_results",
+    "type": "",
+    "title": "现场调查成果类",
+    "icon": "icon-network",
+    "url": "/internet_platform/basic_information/investigation_evaluate/field_investigation_results",
+    "fileName": "internet_platform/basic_information/investigation_evaluate/field_investigation_results",
+    "menu": true,
+    "navigation": true,
+    "sort": 999,
+    "root": "$src/pc/pages/internet_platform/basic_information/investigation_evaluate/field_investigation_results",
+    "compiled": true,
+    "module": "fieldInvestigationResults",
+    "target": "_blank",
+    "open": 0
+}

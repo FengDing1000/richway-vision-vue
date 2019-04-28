@@ -1,0 +1,461 @@
+{
+    "id": "0ffe8d8c-7133-f00d-7361-fe119232b6ee",
+    "code": "internet_platform/effect_range",
+    "type": "component",
+    "title": "影响范围",
+    "icon": "menu_realtime_monitoring",
+    "url": "/internet_platform/effect_range",
+    "fileName": "internet_platform/effect_range",
+    "menu": true,
+    "navigation": true,
+    "sort": 2,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/effect_range",
+    "compiled": true,
+    "module": "effectRange",
+    "target": "_single",
+    "method": "get",
+    "entry": "index.js",
+    "config": [
+        {
+            "id": "MapView",
+            "center": [
+                26.595353,
+                106.6602
+            ],
+            "zoom": 8,
+            "minZoom": 7,
+            "maxZoom": 16,
+            "regions": [
+                {
+                    "id": "BaseLayers",
+                    "title": "地图底图",
+                    "components": [
+                        {
+                            "title": "贵州地图",
+                            "sort": 1,
+                            "list": [
+                                {
+                                    "id": "MapBase-DynamicNormalMap_2",
+                                    "componentName": "MapBase-TiledDynamicMap",
+                                    "config": {
+                                        "icon": "/map/gzmap.png",
+                                        "active": false,
+                                        "title": "贵州矢量图",
+                                        "type": "dynamic",
+                                        "url": "http://192.168.0.101:6080/arcgis/rest/services/gz_20181119/MapServer",
+                                        "sort": 1
+                                    }
+                                },
+                                {
+                                    "id": "MapBase-DynamicNormalMap_dem",
+                                    "componentName": "MapBase-TiledDynamicMap",
+                                    "config": {
+                                        "icon": "/map/gzmapdem.png",
+                                        "active": false,
+                                        "title": "贵州地形图",
+                                        "type": "dynamic",
+                                        "url": "http://192.168.0.101:6080/arcgis/rest/services/gz_20181119_dem/MapServer",
+                                        "sort": 2
+                                    }
+                                }
+                            ],
+                            "type": "custom"
+                        },
+                        {
+                            "title": "谷歌地图",
+                            "sort": 2,
+                            "list": [
+                                {
+                                    "id": "BusinessLayersGoogleVector",
+                                    "componentName": "MapBase-GoogleVector",
+                                    "config": {
+                                        "icon": "/map/googlemap.png",
+                                        "title": "谷歌矢量",
+                                        "sort": 2
+                                    }
+                                },
+                                {
+                                    "id": "BusinessLayersGoogleImage",
+                                    "componentName": "MapBase-GoogleImage",
+                                    "config": {
+                                        "icon": "/map/googleimage.png",
+                                        "title": "谷歌影像",
+                                        "sort": 3
+                                    }
+                                },
+                                {
+                                    "id": "BusinessLayersGoogleTerrain",
+                                    "componentName": "MapBase-GoogleTerrain",
+                                    "config": {
+                                        "icon": "/map/googletrain.png",
+                                        "title": "谷歌地形",
+                                        "sort": 4
+                                    }
+                                }
+                            ],
+                            "type": "google"
+                        },
+                        {
+                            "title": "天地图地图",
+                            "sort": 3,
+                            "list": [
+                                {
+                                    "id": "BusinessLayersTianDiTuVector",
+                                    "componentName": "MapBase-TianDiTuVector",
+                                    "config": {
+                                        "icon": "/map/tianditumap.png",
+                                        "title": "天地图矢量",
+                                        "sort": 5
+                                    }
+                                },
+                                {
+                                    "id": "BusinessLayersTianDiTuImage",
+                                    "componentName": "MapBase-TianDiTuImage",
+                                    "config": {
+                                        "active": true,
+                                        "icon": "/map/tiandituimage.png",
+                                        "title": "天地图影像",
+                                        "sort": 6
+                                    }
+                                },
+                                {
+                                    "id": "BusinessLayersTianDiTuTerrain",
+                                    "componentName": "MapBase-TianDiTuTerrain",
+                                    "config": {
+                                        "icon": "/map/tianditutrain.png",
+                                        "title": "天地图地形",
+                                        "sort": 7
+                                    }
+                                }
+                            ],
+                            "type": "tianditu"
+                        }
+                    ]
+                },
+                {
+                    "id": "BusinessLayers",
+                    "title": "业务图层",
+                    "components": [
+                        {
+                            "id": "BusinessLayersWarn",
+                            "componentName": "Map-Business-Layers-Warn",
+                            "config": {
+                                "code": "BusinessLayersWarn",
+                                "layerGroupName": "Warn",
+                                "title": "预警",
+                                "init": true,
+                                "controllByLayer": false,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersDangerousArea",
+                            "componentName": "Map-Business-Layers-DangerousArea",
+                            "config": {
+                                "code": "BusinessLayersDangerousArea",
+                                "layerGroupName": "DangerousArea",
+                                "title": "危险区",
+                                "init": true,
+                                "legendSort": 1,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersPlacement",
+                            "componentName": "Map-Business-Layers-Placement",
+                            "config": {
+                                "code": "BusinessLayersPlacement",
+                                "layerGroupName": "Placement",
+                                "title": "安置点",
+                                "init": true,
+                                "legendSort": 2,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersTransfer",
+                            "componentName": "Map-Business-Layers-Transfer",
+                            "config": {
+                                "code": "BusinessLayersTransfer",
+                                "layerGroupName": "Transfer",
+                                "title": "转移路线",
+                                "init": true,
+                                "legendSort": 3,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersBusiness",
+                            "componentName": "Map-Business-Layers-Business",
+                            "config": {
+                                "code": "BusinessLayersBusiness",
+                                "layerGroupName": "Business",
+                                "title": "企事业单位",
+                                "init": true,
+                                "legendSort": 4,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersVillage",
+                            "componentName": "Map-Business-Layers-Village",
+                            "config": {
+                                "code": "BusinessLayersVillage",
+                                "layerGroupName": "Village",
+                                "title": "沿河村落",
+                                "init": true,
+                                "legendSort": 5,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersTown",
+                            "componentName": "Map-Business-Layers-Town",
+                            "config": {
+                                "code": "BusinessLayersTown",
+                                "layerGroupName": "Town",
+                                "title": "重要城（集）镇居民户",
+                                "init": true,
+                                "legendSort": 6,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersRainfallSite",
+                            "componentName": "Map-Business-Layers-RainfallSite",
+                            "config": {
+                                "code": "BusinessLayersRainfallSite",
+                                "layerGroupName": "RainfallSite",
+                                "title": "雨量站",
+                                "init": true,
+                                "legendSort": 7,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersReservoirSite",
+                            "componentName": "Map-Business-Layers-ReservoirSite",
+                            "config": {
+                                "code": "BusinessLayersReservoirSite",
+                                "layerGroupName": "ReservoirSite",
+                                "title": "水库站",
+                                "init": true,
+                                "legendSort": 8,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersRiverSite",
+                            "componentName": "Map-Business-Layers-RiverSite",
+                            "config": {
+                                "code": "BusinessLayersRiverSite",
+                                "layerGroupName": "RiverSite",
+                                "title": "河道站",
+                                "init": true,
+                                "legendSort": 9,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersHsfwater",
+                            "componentName": "Map-Business-Layers-Hsfwater",
+                            "config": {
+                                "code": "BusinessLayersHsfwater",
+                                "layerGroupName": "Hsfwater",
+                                "title": "历史山洪灾害",
+                                "init": true,
+                                "legendSort": 10,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersGully",
+                            "componentName": "Map-Business-Layers-Gully",
+                            "config": {
+                                "code": "BusinessLayersGully",
+                                "layerGroupName": "Gully",
+                                "title": "需防洪治理山洪沟",
+                                "init": true,
+                                "legendSort": 11,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersBridge",
+                            "componentName": "Map-Business-Layers-Bridge",
+                            "config": {
+                                "code": "BusinessLayersBridge",
+                                "layerGroupName": "Bridge",
+                                "title": "桥梁",
+                                "init": true,
+                                "legendSort": 12,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersCulvert",
+                            "componentName": "Map-Business-Layers-Culvert",
+                            "config": {
+                                "code": "BusinessLayersCulvert",
+                                "layerGroupName": "Culvert",
+                                "title": "路涵工程",
+                                "init": true,
+                                "legendSort": 13,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersWeir",
+                            "componentName": "Map-Business-Layers-Weir",
+                            "config": {
+                                "code": "BusinessLayersWeir",
+                                "layerGroupName": "Weir",
+                                "title": "塘(堰)坝工程",
+                                "init": true,
+                                "legendSort": 14,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        },
+                        {
+                            "id": "BusinessLayersDike",
+                            "componentName": "Map-Business-Layers-Dike",
+                            "config": {
+                                "code": "BusinessLayersDike",
+                                "layerGroupName": "Dike",
+                                "title": "堤防",
+                                "init": true,
+                                "legendSort": 15,
+                                "subscribeKey": "",
+                                "cluster": {
+                                    "isCluster": false,
+                                    "maxZoom": 10
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Controls",
+                    "title": "控制按钮",
+                    "components": [
+                        {
+                            "id": "MapControlsBaseLayer",
+                            "componentName": "Map-Controls-BaseLayer",
+                            "config": {
+                                "position": "left-bottom",
+                                "sort": 1
+                            }
+                        },
+                        {
+                            "id": "MapControlsBaseLegend",
+                            "componentName": "Map-Controls-Base-Legend",
+                            "config": {
+                                "position": "left-bottom",
+                                "sort": 2,
+                                "type": "vertical",
+                                "toggle": "show"
+                            }
+                        },
+                        {
+                            "id": "MapControlsAttr",
+                            "componentName": "Map-Controls-Attr",
+                            "config": {
+                                "position": "left-top",
+                                "sort": 1
+                            }
+                        },
+                        {
+                            "id": "MapControlsRange",
+                            "componentName": "Map-Controls-Range",
+                            "config": {
+                                "position": "top-right",
+                                "sort": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "Plugins",
+                    "title": "地图插件",
+                    "components": []
+                }
+            ]
+        },
+        {
+            "id": "MapBusiness",
+            "components": [
+                {
+                    "id": "MapBusinessEffectRange",
+                    "componentName": "Map-Business-EffectRange",
+                    "config": {
+                        "position": "right",
+                        "sort": 3
+                    }
+                }
+            ]
+        }
+    ],
+    "mustLogin": true,
+    "keepAlive": false
+}

@@ -1,0 +1,22 @@
+{
+    "id": "7c6ad66f-a133-f00d-bc36-044993a8fdc5",
+    "code": "internet_platform/error",
+    "type": "component",
+    "title": "错误页面",
+    "icon": "icon-network",
+    "url": "/error",
+    "fileName": "internet_platform/error",
+    "menu": false,
+    "navigation": false,
+    "sort": 999,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/error",
+    "compiled": true,
+    "module": "error",
+    "target": "_blank",
+    "method": "get",
+    "entry": "index.js",
+    "config": [],
+    "mustLogin": false,
+    "keepAlive": true
+}

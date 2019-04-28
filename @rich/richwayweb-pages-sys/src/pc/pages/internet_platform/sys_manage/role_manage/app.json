@@ -1,0 +1,22 @@
+{
+    "id": "d6b0e9f7-3133-f009-8c6a-b87f849211ab",
+    "code": "internet_platform/sys_manage/role_manage",
+    "type": "component",
+    "title": "角色管理",
+    "icon": "icon-network",
+    "url": "/internet_platform/sys_manage/role_manage",
+    "fileName": "internet_platform/sys_manage/role_manage",
+    "menu": true,
+    "navigation": true,
+    "sort": 3,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/sys_manage/role_manage",
+    "compiled": true,
+    "module": "roleManage",
+    "target": "_single",
+    "method": "get",
+    "entry": "index.js",
+    "config": [],
+    "mustLogin": false,
+    "keepAlive": true
+}

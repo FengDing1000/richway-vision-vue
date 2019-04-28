@@ -1,0 +1,39 @@
+{
+    "id": "99b61ad3-b133-f00d-e938-32161236ede4",
+    "code": "internet_platform",
+    "type": "root",
+    "title": "物联网平台",
+    "icon": "icon-network",
+    "url": "/",
+    "fileName": "internet_platform",
+    "menu": false,
+    "navigation": false,
+    "sort": 3,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform",
+    "compiled": true,
+    "module": "internetPlatform",
+    "target": "_blank",
+    "method": "get",
+    "entry": "index.js",
+    "config": [],
+    "mustLogin": false,
+    "keepAlive": true,
+    "keysWords": "",
+    "description": "",
+    "ico": "",
+    "logo": "/images/logo.png",
+    "template": "index.html",
+    "css": [
+        "/assets/css/leaflet.css"
+    ],
+    "preJS": [
+        "/assets/js/leaflet.min.js",
+        "/assets/js/turf-5.1.6.min.js",
+        "/assets/js/vue.min.js",
+        "/assets/js/element-ui-2.4.8.min.js",
+        "/assets/js/moment-2.22.2.min.js"
+    ],
+    "js": [],
+    "layoutId": "Layout-Base"
+}

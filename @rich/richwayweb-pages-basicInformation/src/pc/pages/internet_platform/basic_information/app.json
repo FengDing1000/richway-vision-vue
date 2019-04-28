@@ -1,0 +1,17 @@
+{
+    "id": "8800c72f-3133-f00d-7361-fbfccbb3433d",
+    "code": "internet_platform/basic_information",
+    "type": "",
+    "title": "基础信息",
+    "icon": "menu_basic_information",
+    "url": "/internet_platform/basic_information",
+    "fileName": "internet_platform/basic_information",
+    "menu": true,
+    "navigation": true,
+    "sort": 9,
+    "root": "$src/pc/pages/internet_platform/basic_information",
+    "compiled": false,
+    "module": "basicInformation",
+    "target": "_single",
+    "open": 0
+}

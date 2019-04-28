@@ -1,0 +1,22 @@
+{
+    "id": "9500b809-b133-f00c-ccac-f187570db099",
+    "code": "internet_platform/sys_manage/dept_manage",
+    "type": "component",
+    "title": "分组管理",
+    "icon": "icon-network",
+    "url": "/internet_platform/sys_manage/dept_manage",
+    "fileName": "internet_platform/sys_manage/dept_manage",
+    "menu": true,
+    "navigation": true,
+    "sort": 2,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/sys_manage/dept_manage",
+    "compiled": true,
+    "module": "deptManage",
+    "target": "_single",
+    "method": "get",
+    "entry": "index.js",
+    "config": [],
+    "mustLogin": true,
+    "keepAlive": true
+}

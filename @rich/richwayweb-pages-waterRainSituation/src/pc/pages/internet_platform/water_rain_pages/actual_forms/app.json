@@ -1,0 +1,17 @@
+{
+    "id": "8635cd7e-d133-f00d-7362-046f47308fee",
+    "code": "internet_platform/water_rain_pages/actual_forms",
+    "type": "",
+    "title": "实时报表",
+    "icon": "icon-network",
+    "url": "/internet_platform/water_rain_pages/actual_forms",
+    "fileName": "internet_platform/water_rain_pages/actual_forms",
+    "menu": true,
+    "navigation": true,
+    "sort": 3,
+    "root": "$src/pc/pages/internet_platform/water_rain_pages/actual_forms",
+    "compiled": true,
+    "module": "actualForms",
+    "target": "_single",
+    "open": 0
+}

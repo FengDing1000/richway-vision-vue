@@ -1,0 +1,22 @@
+{
+    "id": "b3cb1dc3-a133-f009-7223-7ceff346fa78",
+    "code": "internet_platform/platform_manage/user_manage",
+    "type": "component",
+    "title": "用户管理",
+    "icon": "icon-network",
+    "url": "/internet_platform/platform_manage/user_manage",
+    "fileName": "internet_platform/platform_manage/user_manage",
+    "menu": true,
+    "navigation": true,
+    "sort": 1,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/platform_manage/user_manage",
+    "compiled": true,
+    "module": "userManage",
+    "target": "_single",
+    "method": "get",
+    "entry": "index.js",
+    "config": [],
+    "mustLogin": true,
+    "keepAlive": true
+}

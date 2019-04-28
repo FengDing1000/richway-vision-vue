@@ -1,0 +1,22 @@
+{
+    "id": "704ea9fe-7133-f00b-a7ed-53f26673dea8",
+    "code": "internet_platform/cesium_map",
+    "type": "component",
+    "title": "三维地图",
+    "icon": "icon-network",
+    "url": "/internet_platform/cesium_map",
+    "fileName": "internet_platform/cesium_map",
+    "menu": true,
+    "navigation": true,
+    "sort": 3,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/cesium_map",
+    "compiled": true,
+    "module": "cesiumMap",
+    "target": "_single",
+    "method": "get",
+    "entry": "index.js",
+    "config": [],
+    "mustLogin": true,
+    "keepAlive": true
+}

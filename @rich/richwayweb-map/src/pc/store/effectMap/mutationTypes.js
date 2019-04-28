@@ -1,0 +1,12 @@
+/**
+ * 状态管理store里面mutation里面方法名称
+ */
+export const SET_MAP = `SET_MAP`;
+export const SET_MAP_OPTIONS = `SET_MAP_OPTIONS`;
+
+export const SET_ALL_PANEL = `SET_ALL_PANEL`;
+export const SET_RAINFALL_INFO = `SET_RAINFALL_INFO`;
+export const SET_WATERLEVEL_PROCESS_INFO = `SET_WATERLEVEL_PROCESS_INFO`;
+export const SET_WATERLEVEL_SKETCH_INFO = `SET_WATERLEVEL_SKETCH_INFO`;
+export const SET_SITE_LIST = `SET_SITE_LIST`;
+export const SET_CURRENT_SITE_INFO = `SET_CURRENT_SITE_INFO`;

@@ -1,0 +1,17 @@
+{
+    "id": "c80438b0-8133-f00a-a8a4-5d4b3042bc74",
+    "code": "internet_platform/basic_information/small_watershed",
+    "type": "",
+    "title": "小流域信息",
+    "icon": "icon-network",
+    "url": "/internet_platform/basic_information/small_watershed",
+    "fileName": "internet_platform/basic_information/small_watershed",
+    "menu": true,
+    "navigation": true,
+    "sort": 2,
+    "root": "$src/pc/pages/internet_platform/basic_information/small_watershed",
+    "compiled": true,
+    "module": "smallWatershed",
+    "target": "_single",
+    "open": 0
+}

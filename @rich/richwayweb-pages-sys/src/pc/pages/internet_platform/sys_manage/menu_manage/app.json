@@ -1,0 +1,22 @@
+{
+    "id": "15c93d03-8133-f009-8c6a-b71c7872e053",
+    "code": "internet_platform/sys_manage/menu_manage",
+    "type": "component",
+    "title": "菜单管理",
+    "icon": "icon-network",
+    "url": "/internet_platform/sys_manage/menu_manage",
+    "fileName": "internet_platform/sys_manage/menu_manage",
+    "menu": true,
+    "navigation": true,
+    "sort": 4,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/sys_manage/menu_manage",
+    "compiled": true,
+    "module": "menuManage",
+    "target": "_single",
+    "method": "get",
+    "entry": "index.js",
+    "config": [],
+    "mustLogin": true,
+    "keepAlive": true
+}

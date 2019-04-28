@@ -1,0 +1,77 @@
+{
+    "title": {
+        "text": "水位过程线"
+    },
+    "color": [
+        "#3398DB"
+    ],
+    "tooltip": {
+        "feature": {
+            "saveAsImage": {}
+        }
+    },
+    "legend": {
+        "data": [
+            "水位线",
+            "管顶线",
+            "预警线",
+            "提醒线",
+            "地面线",
+            "井底线"
+        ]
+    },
+    "grid": {
+        "left": "3%",
+        "right": "4%",
+        "bottom": "3%",
+        "containLabel": true
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "data": [],
+            "boundaryGap": false
+        }
+    ],
+    "yAxis": {
+        "type": "value"
+    },
+    "series": [
+        {
+            "name": "水位线",
+            "type": "line",
+            "stack": "总量",
+            "data": []
+        },
+        {
+            "name": "管顶线",
+            "type": "line",
+            "stack": "总量",
+            "data": []
+        },
+        {
+            "name": "预警线",
+            "type": "line",
+            "stack": "总量",
+            "data": []
+        },
+        {
+            "name": "提醒线",
+            "type": "line",
+            "stack": "总量",
+            "data": []
+        },
+        {
+            "name": "地面线",
+            "type": "line",
+            "stack": "总量",
+            "data": []
+        },
+        {
+            "name": "井底线",
+            "type": "line",
+            "stack": "总量",
+            "data": []
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "id": "6f73a423-5133-f009-7223-7ba2996ec5b0",
+    "code": "internet_platform/login",
+    "type": "component",
+    "title": "登录",
+    "icon": "icon-network",
+    "url": "/login",
+    "fileName": "internet_platform/login",
+    "menu": false,
+    "navigation": false,
+    "sort": 999,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/login",
+    "compiled": true,
+    "module": "login",
+    "target": "_blank",
+    "method": "get",
+    "entry": "index.js",
+    "config": [],
+    "mustLogin": false,
+    "keepAlive": true
+}

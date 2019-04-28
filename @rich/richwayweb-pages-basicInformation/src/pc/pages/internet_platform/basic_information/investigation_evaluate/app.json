@@ -1,0 +1,17 @@
+{
+    "id": "402ee4b0-f133-f00a-a8a4-5bf83feea512",
+    "code": "internet_platform/basic_information/investigation_evaluate",
+    "type": "",
+    "title": "调查评价",
+    "icon": "icon-network",
+    "url": "/internet_platform/basic_information/investigation_evaluate",
+    "fileName": "internet_platform/basic_information/investigation_evaluate",
+    "menu": true,
+    "navigation": true,
+    "sort": 6,
+    "root": "$src/pc/pages/internet_platform/basic_information/investigation_evaluate",
+    "compiled": true,
+    "module": "investigationEvaluate",
+    "target": "_single",
+    "open": 0
+}

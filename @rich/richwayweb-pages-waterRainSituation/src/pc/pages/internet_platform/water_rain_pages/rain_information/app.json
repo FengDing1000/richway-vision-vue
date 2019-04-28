@@ -1,0 +1,17 @@
+{
+    "id": "1ccfa871-b133-f00d-7362-06f3362348f6",
+    "code": "internet_platform/water_rain_pages/rain_information",
+    "type": "",
+    "title": "雨情信息",
+    "icon": "icon-network",
+    "url": "/internet_platform/water_rain_pages/rain_information",
+    "fileName": "internet_platform/water_rain_pages/rain_information",
+    "menu": true,
+    "navigation": true,
+    "sort": 1,
+    "root": "$src/pc/pages/internet_platform/water_rain_pages/rain_information",
+    "compiled": true,
+    "module": "rainInformation",
+    "target": "_single",
+    "open": 0
+}

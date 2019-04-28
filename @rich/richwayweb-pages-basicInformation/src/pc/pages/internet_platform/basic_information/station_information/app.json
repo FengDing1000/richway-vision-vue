@@ -1,0 +1,17 @@
+{
+    "id": "18ea583b-3133-f00a-a8a4-5df728c9d346",
+    "code": "internet_platform/basic_information/station_information",
+    "type": "",
+    "title": "测站基本信息",
+    "icon": "icon-network",
+    "url": "/internet_platform/basic_information/station_information",
+    "fileName": "internet_platform/basic_information/station_information",
+    "menu": true,
+    "navigation": true,
+    "sort": 3,
+    "root": "$src/pc/pages/internet_platform/basic_information/station_information",
+    "compiled": true,
+    "module": "stationInformation",
+    "target": "_single",
+    "open": 0
+}

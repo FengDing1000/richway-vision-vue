@@ -1,0 +1,17 @@
+{
+    "id": "811370c9-e133-f00a-a8a4-5ba18bd62fb6",
+    "code": "internet_platform/basic_information/investigation_evaluate/hydrology_Meteorological",
+    "type": "",
+    "title": "水文气象",
+    "icon": "icon-network",
+    "url": "/internet_platform/basic_information/investigation_evaluate/hydrology_Meteorological",
+    "fileName": "internet_platform/basic_information/investigation_evaluate/hydrology_Meteorological",
+    "menu": true,
+    "navigation": true,
+    "sort": 1,
+    "root": "$src/pc/pages/internet_platform/basic_information/investigation_evaluate/hydrology_Meteorological",
+    "compiled": true,
+    "module": "hydrologyMeteorological",
+    "target": "_single",
+    "open": 0
+}

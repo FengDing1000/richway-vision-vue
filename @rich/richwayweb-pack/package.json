@@ -1,0 +1,55 @@
+{
+  "_from": "@rich/richwayweb-pack@~1.1.1",
+  "_id": "@rich/richwayweb-pack@1.1.51",
+  "_inBundle": false,
+  "_integrity": "sha1-KJEnPyazC0suokk2pAq7w82lEFA=",
+  "_location": "/@rich/richwayweb-pack",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@rich/richwayweb-pack@~1.1.1",
+    "name": "@rich/richwayweb-pack",
+    "escapedName": "@rich%2frichwayweb-pack",
+    "scope": "@rich",
+    "rawSpec": "~1.1.1",
+    "saveSpec": null,
+    "fetchSpec": "~1.1.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://119.90.37.83:7001/@rich/richwayweb-pack/download/@rich/richwayweb-pack-1.1.51.tgz",
+  "_shasum": "2891273f26b30b4b2ea24936a40abbc3cda51050",
+  "_spec": "@rich/richwayweb-pack@~1.1.1",
+  "_where": "D:\\company_vision_vue_list\\aaaa",
+  "author": {
+    "name": "g.zhou",
+    "email": "yeyue86@126.com"
+  },
+  "bugs": {
+    "email": "yeyue86@126.com"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "This package is a collection of script commands commonly used in frameworks.",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=8.7.0",
+    "npm": ">=5.4.2"
+  },
+  "keywords": [
+    "nodeJs",
+    "JavaScript",
+    "koa",
+    "vue",
+    "vue-router",
+    "vuex",
+    "webpack4"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@rich/richwayweb-pack",
+  "scripts": {},
+  "version": "1.1.51"
+}

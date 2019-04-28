@@ -1,0 +1,216 @@
+.map-marker-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    >img{
+        width: .8rem;
+        height: .8rem;
+    }
+
+    &:after{
+        content: " ";
+        display: inline-block;
+        position: absolute;
+        top: 40%;
+        right: 40%;
+        bottom: 40%;
+        left: 40%;
+        border-radius: 50%;
+        border: 1px solid transparent;
+        transition: all .5s;
+    }
+
+    .marker-tips {
+        display: inline-block;
+        color: #000;
+        padding: .1rem .4rem;
+        border-radius: .2rem;
+        margin: .1rem 0;
+        font-size: .6rem;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .marker-tips-top,
+    .marker-tips-bottom {
+        color: #fff;
+    }
+    .marker-tips-bottom{
+        background-color: #1565c0;
+    }
+}
+
+.map-marker-icon {
+    display: inline-block;
+    font-size: 1rem;
+}
+
+//河道站图标
+.marker-icon-river,
+.legend-river {
+    position: relative;
+    width: 0 !important;
+    height: 0 !important;
+    border-top: 0;
+    border-bottom: .8rem solid blue;
+    border-left: .3rem solid transparent;
+    border-right: .3rem solid transparent;
+}
+//雨量图标
+.marker-icon-rain,
+.legend-rain{
+    position: relative;
+    top: .05rem;
+    display: inline-block;
+    width: .75rem;
+    height: .75rem;
+    border: 1px solid #eee;
+    border-radius: 50%;
+}
+
+//雨量站图标
+.rainfall-stage-icon {
+    position: relative;
+    top: .05rem;
+    display: inline-block;
+    width: .75rem;
+    height: .75rem;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: green;
+}
+
+//测站图标
+.marker-icon-site,
+.legend-site {
+	position: relative;
+	display: inline-block;
+	width: .8rem !important;
+	height: .8rem !important;
+	border: 2px solid red;
+	border-radius: 50%;
+	line-height: .8rem;
+	color: red;
+	background: #fff;
+
+	&:hover {
+		border-color: #b55656;
+		color: #b55656;
+		box-shadow: 0 0 .75em #777;
+	}
+}
+
+.legend-circle{
+    border-radius: 50%;
+    border: 1px solid #888;
+}
+
+.legend-pipe{
+    .map-marker-icon{
+        width: 1rem;
+        height: .5rem;
+        border-top: 4px dashed rgba(0, 0, 255,.1);
+        border-bottom: 4px dashed blue;
+    }
+}
+
+.legend-rivers{
+    .map-marker-icon{
+        width: 1rem;
+        height: .5rem;
+        border-top: 4px solid rgba(0, 0, 255,.1);
+        border-bottom: 4px solid blue;
+    }
+}
+
+
+.twinkle-animation {
+    animation: twinkling .2s infinite ease-in-out;
+    animation-fill-mode: both;
+}
+
+@keyframes twinkling {
+    0% {
+        opacity: .4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+.map-warn-animation{
+    .radar {
+        display: inline-block;
+        content: " ";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #fff;
+        border-radius: 50%;
+        -webkit-animation: living 3s linear infinite;
+        z-index: -1;
+        border: 1px solid #888;
+    }
+
+    .radar-2 {
+        -webkit-animation-delay: .5s;
+    }
+    .radar-3 {
+        -webkit-animation-delay: 1s;
+    }
+    .radar-4 {
+        -webkit-animation-delay: 1.5s;
+    }
+    .radar-5 {
+        -webkit-animation-delay: 2s;
+    }
+}
+
+@keyframes living {
+    0%{
+        transform: scale(.5);
+        opacity: 1;
+        border-color: rgba(160, 160, 160, 1);
+    }
+    50%{
+        transform: scale(1.5);
+        opacity: .3;
+        border-color: rgba(160, 160, 160, .1);
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0;
+        border-color: rgba(160, 160, 160, .1);
+    }
+}
+
+.marker-cluster-small {
+    background-color: #fff;
+}
+.marker-cluster-small div {
+    background-color: rgba(112, 105, 241, 0.6);
+}
+
+.marker-cluster-medium {
+    background-color: #fff;
+}
+.marker-cluster-medium div {
+    background-color: rgba(56, 46, 246, 0.6);
+}
+
+.marker-cluster-large {
+    background-color: #fff;
+}
+.marker-cluster-large div {
+    background-color: rgba(21, 8, 252, 0.6);
+}
+.marker-cluster{
+    color: #fff;
+}

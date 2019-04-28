@@ -1,0 +1,56 @@
+{
+  "_from": "@rich/richwayweb-assets@~1.1.1",
+  "_id": "@rich/richwayweb-assets@1.1.16",
+  "_inBundle": false,
+  "_integrity": "sha1-UYFuLwkFU3t+NmseWvFqRQlEM7Q=",
+  "_location": "/@rich/richwayweb-assets",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@rich/richwayweb-assets@~1.1.1",
+    "name": "@rich/richwayweb-assets",
+    "escapedName": "@rich%2frichwayweb-assets",
+    "scope": "@rich",
+    "rawSpec": "~1.1.1",
+    "saveSpec": null,
+    "fetchSpec": "~1.1.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://119.90.37.83:7001/@rich/richwayweb-assets/download/@rich/richwayweb-assets-1.1.16.tgz",
+  "_shasum": "51816e2f0905537b7e366b1e5af16a45094433b4",
+  "_spec": "@rich/richwayweb-assets@~1.1.1",
+  "_where": "D:\\company_vision_vue_list\\aaaa",
+  "author": {
+    "name": "g.zhou",
+    "email": "yeyue86@126.com"
+  },
+  "bugs": {
+    "email": "yeyue86@126.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "This is all static resource packages, mainly including third-party plug-ins.",
+  "engines": {
+    "node": ">=8.7.0",
+    "npm": ">=5.4.2"
+  },
+  "keywords": [
+    "nodeJs",
+    "JavaScript",
+    "koa",
+    "vue",
+    "vue-router",
+    "vuex",
+    "webpack4"
+  ],
+  "license": "ISC",
+  "name": "@rich/richwayweb-assets",
+  "scripts": {
+    "postinstall": "node build/copy_assets.js"
+  },
+  "version": "1.1.16"
+}

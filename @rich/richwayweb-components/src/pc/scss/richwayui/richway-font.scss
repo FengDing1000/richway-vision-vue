@@ -1,0 +1,395 @@
+@font-face {
+	font-style: normal;
+	font-weight: normal;
+	font-family: 'richway-icon';
+	src: url('#{$fontUrl}/richway-icon.eot?va1ep3');
+	src: url('#{$fontUrl}/richway-icon.eot?va1ep3#iefix') format('embedded-opentype'), url('#{$fontUrl}/richway-icon.ttf?va1ep3') format('truetype'), url('#{$fontUrl}/richway-icon.woff?va1ep3') format('woff'), url('#{$fontUrl}/richway-icon.svg?va1ep3#richway-icon') format('svg');
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'richway-icon', sans-serif !important;
+	line-height: 1;
+	text-transform: none;
+	speak: none;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-right::before {
+	content: "\e201";
+}
+
+.icon-left::before {
+	content: "\e202";
+}
+
+.icon-coupon::before {
+	content: "\e203";
+}
+
+.icon-login-after::before {
+	content: "\e204";
+}
+
+.icon-login-before::before {
+	content: "\e205";
+}
+
+.icon-tool::before {
+	content: "\e206";
+}
+
+.icon-checkbox-check::before {
+	content: "\e207";
+}
+
+.icon-checkbox::before {
+	content: "\e208";
+}
+
+.icon-radio-check::before {
+	content: "\e209";
+}
+
+.icon-radio::before {
+	content: "\e210";
+}
+
+.icon-folder::before {
+	content: "\e211";
+}
+
+.icon-record::before {
+	content: "\e212";
+}
+
+.icon-links::before {
+	color: #666767;
+	content: "\e213";
+}
+
+.icon-top::before {
+	content: "\e214";
+}
+
+.icon-date::before {
+	content: "\e215";
+}
+
+.icon-about::before {
+	content: "\e216";
+}
+
+.icon-up-arrow::before {
+	content: "\e217";
+}
+
+.icon-down-arrow::before {
+	content: "\e218";
+}
+
+.icon-del::before {
+	content: "\e219";
+}
+
+.icon-edit::before {
+	content: "\e220";
+}
+
+.icon-add::before {
+	content: "\e221";
+}
+
+.icon-tree::before {
+	content: "\e222";
+}
+
+.icon-left-arrow::before {
+	content: "\e223";
+}
+
+.icon-right-arrow::before {
+	content: "\e224";
+}
+
+.icon-refresh::before {
+	content: "\e225";
+}
+
+.icon-loading::before {
+	content: "\e226";
+}
+
+.icon-star::before {
+	content: "\e227";
+}
+
+.icon-setting::before {
+	content: "\e228";
+}
+
+.icon-share::before {
+	content: "\e229";
+}
+
+.icon-search::before {
+	content: "\e230";
+}
+
+.icon-voice::before {
+	content: "\e231";
+}
+
+.icon-print::before {
+	content: "\e232";
+}
+
+.icon-return::before {
+	content: "\e233";
+}
+
+.icon-order-sure::before {
+	content: "\e234";
+}
+
+.icon-money::before {
+	content: "\e235";
+}
+
+.icon-eye-close::before {
+	content: "\e236";
+}
+
+.icon-eye-open::before {
+	content: "\e237";
+}
+
+.icon-location::before {
+	content: "\e238";
+}
+
+.icon-network::before {
+	content: "\e239";
+}
+
+.icon-close::before {
+	content: "\e240";
+}
+
+.icon-cloud::before {
+	content: "\e301";
+}
+
+.icon-fog::before {
+	content: "\e302";
+}
+
+.icon-rain::before {
+	content: "\e303";
+}
+
+.icon-snow::before {
+	content: "\e304";
+}
+
+.icon-sunshine::before {
+	content: "\e305";
+}
+
+.icon-full-screen::before {
+	content: "\e401";
+}
+
+.icon-layer::before {
+	content: "\e402";
+}
+
+.icon-aim::before {
+	content: "\e403";
+}
+
+.icon-distance::before {
+	content: "\e404";
+}
+
+.icon-area::before {
+	content: "\e405";
+}
+
+.icon-plus::before {
+	content: "\e406";
+}
+
+.icon-reduce::before {
+	content: "\e407";
+}
+
+.icon-road::before {
+	content: "\e408";
+}
+
+.icon-satellite::before {
+	content: "\e409";
+}
+
+.icon-sign-out::before {
+	content: "\e410";
+}
+
+.icon-list::before {
+	content: "\e411";
+}
+
+.icon-auth::before {
+	content: "\e412";
+}
+
+.icon-edit-1::before {
+	content: "\e413";
+}
+
+.icon-group::before {
+	content: "\e414";
+}
+
+.icon-phone::before {
+	content: "\e415";
+}
+
+.icon-gear-group::before {
+	content: "\e416";
+}
+
+.icon-paint-brush::before {
+	content: "\e417";
+}
+
+.icon-email::before {
+	content: "\e418";
+}
+
+.icon-fax::before {
+	content: "\e419";
+}
+
+.icon-monitor::before {
+	content: "\e421";
+}
+
+.icon-warn::before {
+	content: "\e422";
+}
+
+.icon-sys::before {
+	content: "\e423";
+}
+
+.icon-analysis::before {
+	content: "\e420";
+}
+
+.icon-exit-full::before {
+	content: "\e424";
+}
+
+.icon-chart-bar::before {
+	content: "\e425";
+}
+
+.icon-chart-line::before {
+	content: "\e426";
+}
+
+.icon-chart-pie::before {
+	content: "\e427";
+}
+
+.icon-warn-1::before {
+	content: "\e429";
+}
+
+.icon-reservoir::before {
+	content: "\e430";
+}
+
+.icon-sluice::before {
+	content: "\e431";
+}
+
+.icon-power-station::before {
+	content: "\e428";
+}
+
+.icon-shebei::before {
+    content: "\e432";
+}
+.icon-site::before {
+    content: "\e433";
+}
+.icon-water::before {
+    content: "\e434";
+}
+
+
+.icon-lake:before {
+    content: "\e455";
+}
+.icon-water1:before {
+    content: "\e456";
+}
+.icon-water-level:before {
+    content: "\e454";
+}
+.icon-aircraft:before {
+    content: "\e453";
+}
+.icon-camera-1:before {
+    content: "\e450";
+}
+.icon-camera-2:before {
+    content: "\e451";
+}
+.icon-company:before {
+    content: "\e449";
+}
+.icon-enclosure:before {
+    content: "\e447";
+}
+.icon-fire-hydrant:before {
+    content: "\e448";
+}
+.icon-flow:before {
+    content: "\e446";
+}
+.icon-operation:before {
+    content: "\e444";
+}
+.icon-personnel:before {
+    content: "\e445";
+}
+.icon-pool:before {
+    content: "\e443";
+}
+.icon-pumping-station:before {
+    content: "\e441";
+}
+.icon-robot:before {
+    content: "\e442";
+}
+.icon-sewage:before {
+    content: "\e440";
+}
+.icon-shower:before {
+    content: "\e435";
+}
+.icon-well-cover:before {
+    content: "\e452";
+}

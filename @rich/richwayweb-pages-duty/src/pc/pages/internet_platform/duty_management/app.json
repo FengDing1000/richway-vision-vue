@@ -1,0 +1,18 @@
+{
+    "id": "bb8fdf7d-e133-f00d-7361-fee40f1aca67",
+    "code": "internet_platform/duty_management",
+    "type": "",
+    "title": "值班管理",
+    "icon": "menu_duty_management",
+    "url": "/internet_platform/duty_management",
+    "fileName": "internet_platform/duty_management",
+    "menu": true,
+    "navigation": true,
+    "sort": 7,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/duty_management",
+    "compiled": false,
+    "module": "dutyManagement",
+    "target": "_blank",
+    "open": 0
+}

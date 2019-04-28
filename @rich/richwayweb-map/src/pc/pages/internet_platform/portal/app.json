@@ -1,0 +1,22 @@
+{
+    "id": "02ef3660-9133-f00d-e938-33442463ebd3",
+    "code": "internet_platform/portal",
+    "type": "component",
+    "title": "首页",
+    "icon": "icon-network",
+    "url": "/portal",
+    "fileName": "internet_platform/portal",
+    "menu": false,
+    "navigation": false,
+    "sort": 999,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/portal",
+    "compiled": true,
+    "module": "portal",
+    "target": "_blank",
+    "method": "get",
+    "entry": "index.js",
+    "config": [],
+    "mustLogin": false,
+    "keepAlive": true
+}

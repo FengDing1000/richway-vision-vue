@@ -1,0 +1,22 @@
+{
+    "id": "2844079b-d134-1399-dd2d-b7983cd4dcc0",
+    "code": "internet_platform/font_library",
+    "type": "component",
+    "title": "字体库",
+    "icon": "icon-network",
+    "url": "/font_library",
+    "fileName": "internet_platform/font_library",
+    "menu": true,
+    "navigation": true,
+    "sort": 999,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/font_library",
+    "compiled": true,
+    "module": "fontLibrary",
+    "target": "_blank",
+    "method": "get",
+    "entry": "index.js",
+    "config": [],
+    "mustLogin": false,
+    "keepAlive": true
+}

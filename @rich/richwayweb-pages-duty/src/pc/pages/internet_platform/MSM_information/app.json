@@ -1,0 +1,18 @@
+{
+    "id": "f1262ee7-4133-f070-9b3c-ac463725f962",
+    "code": "internet_platform/MSM_information",
+    "type": "",
+    "title": "短信信息",
+    "icon": "icon-network",
+    "url": "/internet_platform/MSM_information",
+    "fileName": "internet_platform/MSM_information",
+    "menu": true,
+    "navigation": true,
+    "sort": 999,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/MSM_information",
+    "compiled": true,
+    "module": "MSMInformation",
+    "target": "_blank",
+    "open": 0
+}

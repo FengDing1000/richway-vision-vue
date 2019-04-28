@@ -1,0 +1,40 @@
+// 县乡村基本信息页面的一级路由
+import INTERNET_PLATFORM_BASIC_INFORMATION_ADMINISTRATIVE_REGION_COUNTY_COUNTRY_INFORMATION from '$src/pc/pages/internet_platform/basic_information/administrative_region/county_country_information/router';
+// 县乡村预案页面的一级路由
+import INTERNET_PLATFORM_BASIC_INFORMATION_ADMINISTRATIVE_REGION_COUNTY_COUNTRY_RESERVE_PLAN from '$src/pc/pages/internet_platform/basic_information/administrative_region/county_country_reserve_plan/router';
+// 山洪灾害影响情况页面的一级路由
+import INTERNET_PLATFORM_BASIC_INFORMATION_ADMINISTRATIVE_REGION_MOUNTAIN_FLOOD_DISASTER from '$src/pc/pages/internet_platform/basic_information/administrative_region/mountain_flood_disaster/router';
+// 历史灾情页面的一级路由
+import INTERNET_PLATFORM_BASIC_INFORMATION_DISASTER_SITUATION_HISTORY_DISASTER from '$src/pc/pages/internet_platform/basic_information/disaster_situation/history_disaster/router';
+// 小流域信息页面的一级路由
+import INTERNET_PLATFORM_BASIC_INFORMATION_SMALL_WATERSHED_SMALL_WATERSHED_BASIC_INFORMATION from '$src/pc/pages/internet_platform/basic_information/small_watershed/small_watershed_basic_information/router';
+// 测站基本信息页面的一级路由
+import INTERNET_PLATFORM_BASIC_INFORMATION_STATION_INFORMATION_STATION_BASIC_INFORMATION from '$src/pc/pages/internet_platform/basic_information/station_information/station_basic_information/router';
+// 堤防信息页面的一级路由
+import INTERNET_PLATFORM_BASIC_INFORMATION_WORK_SITUATION_DAM_INFORMATION from '$src/pc/pages/internet_platform/basic_information/work_situation/dam_information/router';
+// 水库信息页面的一级路由
+import INTERNET_PLATFORM_BASIC_INFORMATION_WORK_SITUATION_RESERVOIR_INFORMATION from '$src/pc/pages/internet_platform/basic_information/work_situation/reservoir_information/router';
+// 水情信息页面的一级路由
+import INTERNET_PLATFORM_BASIC_INFORMATION_WORK_SITUATION_RIVER_INFORMATION from '$src/pc/pages/internet_platform/basic_information/work_situation/river_information/router';
+// 错误页面页面的一级路由
+import INTERNET_PLATFORM_ERROR from '$src/pc/pages/internet_platform/error/router';
+// 登录页面的一级路由
+import INTERNET_PLATFORM_LOGIN from '$src/pc/pages/internet_platform/login/router';
+// 首页页面的一级路由
+import INTERNET_PLATFORM_PORTAL from '$src/pc/pages/internet_platform/portal/router';
+
+const routes = [];
+routes.push(INTERNET_PLATFORM_BASIC_INFORMATION_ADMINISTRATIVE_REGION_COUNTY_COUNTRY_INFORMATION);
+routes.push(INTERNET_PLATFORM_BASIC_INFORMATION_ADMINISTRATIVE_REGION_COUNTY_COUNTRY_RESERVE_PLAN);
+routes.push(INTERNET_PLATFORM_BASIC_INFORMATION_ADMINISTRATIVE_REGION_MOUNTAIN_FLOOD_DISASTER);
+routes.push(INTERNET_PLATFORM_BASIC_INFORMATION_DISASTER_SITUATION_HISTORY_DISASTER);
+routes.push(INTERNET_PLATFORM_BASIC_INFORMATION_SMALL_WATERSHED_SMALL_WATERSHED_BASIC_INFORMATION);
+routes.push(INTERNET_PLATFORM_BASIC_INFORMATION_STATION_INFORMATION_STATION_BASIC_INFORMATION);
+routes.push(INTERNET_PLATFORM_BASIC_INFORMATION_WORK_SITUATION_DAM_INFORMATION);
+routes.push(INTERNET_PLATFORM_BASIC_INFORMATION_WORK_SITUATION_RESERVOIR_INFORMATION);
+routes.push(INTERNET_PLATFORM_BASIC_INFORMATION_WORK_SITUATION_RIVER_INFORMATION);
+routes.push(INTERNET_PLATFORM_ERROR);
+routes.push(INTERNET_PLATFORM_LOGIN);
+routes.push(INTERNET_PLATFORM_PORTAL);
+
+export default routes;

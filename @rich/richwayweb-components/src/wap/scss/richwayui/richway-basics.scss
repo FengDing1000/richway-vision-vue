@@ -1,0 +1,92 @@
+/* 清除浮动 */
+.richway-clear {
+	clear: both;
+	*zoom: 1;
+
+	&::after {
+		clear: both;
+		display: block;
+		height: 0;
+		visibility: hidden;
+		content: '\20';
+		*zoom: 1;
+	}
+}
+
+/* 行内块级元素 */
+.richway-inline {
+	position: relative;
+	display: inline-block;
+	*zoom: 1;
+	vertical-align: middle;
+}
+
+/* 三角形 */
+.richway-edge {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-style: dashed;
+	border-color: transparent;
+	overflow: hidden;
+}
+
+/* 单行溢出省略 */
+.richway-elip {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/* 纯圆角 */
+.richway-circle {
+	border-radius: 50%;
+}
+
+/* 显示 */
+.richway-show {
+	display: block !important;
+}
+
+/* 隐藏 */
+.richway-hide {
+	display: none !important;
+}
+
+/* 文字左对齐 */
+.richway-push-left {
+	text-align: left !important;
+}
+
+/* 文右对齐 */
+.richway-push-right {
+	text-align: right !important;
+}
+
+/* 文字居中 */
+.richway-push-center {
+	text-align: center !important;
+}
+
+/* 左浮动 */
+.richway-left {
+	float: left !important;
+}
+
+/* 右浮动 */
+.richway-right {
+	float: right !important;
+}
+
+/* 模块阴影 */
+.richway-shadow {
+	box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .1);
+}
+
+/* 屏蔽选中 */
+.richway-shield,
+.richway-icon,
+.img,
+.richway-btn {
+	user-select: none;
+}

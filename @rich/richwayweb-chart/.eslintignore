@@ -1,0 +1,5 @@
+/node_modules/
+/client/
+/*.js
+/src/assets/js/
+/src/utils/outils/

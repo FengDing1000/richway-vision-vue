@@ -1,0 +1,17 @@
+{
+    "id": "88f055f5-3133-f00a-a8a4-5d0719256af6",
+    "code": "internet_platform/basic_information/investigation_evaluate/section_measurement_results",
+    "type": "",
+    "title": "断面测量成果类",
+    "icon": "icon-network",
+    "url": "/internet_platform/basic_information/investigation_evaluate/section_measurement_results",
+    "fileName": "internet_platform/basic_information/investigation_evaluate/section_measurement_results",
+    "menu": true,
+    "navigation": true,
+    "sort": 3,
+    "root": "$src/pc/pages/internet_platform/basic_information/investigation_evaluate/section_measurement_results",
+    "compiled": true,
+    "module": "sectionMeasurementResults",
+    "target": "_single",
+    "open": 0
+}

@@ -1,0 +1,22 @@
+{
+    "id": "336b1951-8133-f009-8c6a-b6cecff4ea27",
+    "code": "internet_platform/sys_manage/role_menu_authority_manage",
+    "type": "component",
+    "title": "角色菜单权限管理",
+    "icon": "icon-network",
+    "url": "/internet_platform/sys_manage/role_menu_authority_manage",
+    "fileName": "internet_platform/sys_manage/role_menu_authority_manage",
+    "menu": true,
+    "navigation": true,
+    "sort": 5,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/sys_manage/role_menu_authority_manage",
+    "compiled": true,
+    "module": "roleMenuAuthorityManage",
+    "target": "_single",
+    "method": "get",
+    "entry": "index.js",
+    "config": [],
+    "mustLogin": true,
+    "keepAlive": true
+}

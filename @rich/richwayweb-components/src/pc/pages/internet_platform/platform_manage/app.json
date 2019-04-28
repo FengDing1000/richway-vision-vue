@@ -1,0 +1,18 @@
+{
+    "id": "d688cc88-a133-f009-7223-7b96e131b830",
+    "code": "internet_platform/platform_manage",
+    "type": "",
+    "title": "平台管理",
+    "icon": "icon-sys",
+    "url": "/internet_platform/platform_manage",
+    "fileName": "internet_platform/platform_manage",
+    "menu": true,
+    "navigation": true,
+    "sort": 5,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/platform_manage",
+    "compiled": false,
+    "module": "platformManage",
+    "target": "_blank",
+    "open": 0
+}

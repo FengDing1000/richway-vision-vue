@@ -1,0 +1,17 @@
+{
+    "id": "be1948bb-7133-f00d-9c20-d4650cbd6fb0",
+    "code": "internet_platform/warn_respond",
+    "type": "",
+    "title": "预警响应",
+    "icon": "menu_basic_information",
+    "url": "/internet_platform/warn_respond",
+    "fileName": "internet_platform/warn_respond",
+    "menu": true,
+    "navigation": true,
+    "sort": 999,
+    "root": "$src/pc/pages/internet_platform/warn_respond",
+    "compiled": false,
+    "module": "warnRespond",
+    "target": "_single",
+    "open": 0
+}

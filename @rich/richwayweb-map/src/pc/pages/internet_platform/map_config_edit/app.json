@@ -1,0 +1,22 @@
+{
+    "id": "6c59162a-6133-f0d4-9c8e-3be1ef49c289",
+    "code": "internet_platform/map_config_edit",
+    "type": "component",
+    "title": "地图配置",
+    "icon": "icon-network",
+    "url": "/internet_platform/map_config_edit",
+    "fileName": "internet_platform/map_config_edit",
+    "menu": true,
+    "navigation": true,
+    "sort": 4,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/map_config_edit",
+    "compiled": true,
+    "module": "mapConfigEdit",
+    "target": "_single",
+    "method": "get",
+    "entry": "index.js",
+    "config": [],
+    "mustLogin": true,
+    "keepAlive": true
+}

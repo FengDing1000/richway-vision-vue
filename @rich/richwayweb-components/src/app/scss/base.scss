@@ -1,0 +1,34 @@
+@import './mixin';
+@import './richwayui/richway-index';
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    width: 100%;
+    font-size: $fontDefault;
+    background-color: $bodyBg;
+}
+
+
+.richway-web-pc{
+
+}
+
+.richway-btn-disabled{
+    cursor: not-allowed !important;
+    opacity: .4 !important;
+}
+.richway-touch-active{
+    background: #f9f9f9 !important;
+    color: #333 !important;
+    border-radius: 4px;
+
+    &.imp-btn{
+        background: #ec666d !important;
+        color: #fff !important;
+    }
+}

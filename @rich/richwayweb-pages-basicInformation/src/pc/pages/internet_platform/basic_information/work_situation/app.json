@@ -1,0 +1,17 @@
+{
+    "id": "bf8530cd-4133-f00a-a8a4-5d6f03058a0d",
+    "code": "internet_platform/basic_information/work_situation",
+    "type": "",
+    "title": "工情信息",
+    "icon": "icon-network",
+    "url": "/internet_platform/basic_information/work_situation",
+    "fileName": "internet_platform/basic_information/work_situation",
+    "menu": true,
+    "navigation": true,
+    "sort": 4,
+    "root": "$src/pc/pages/internet_platform/basic_information/work_situation",
+    "compiled": true,
+    "module": "workSituation",
+    "target": "_single",
+    "open": 0
+}

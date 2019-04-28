@@ -1,0 +1,18 @@
+{
+    "id": "ff2ffefa-d133-f0d1-ecd5-1ab5f17c44ab",
+    "code": "internet_platform/person_liable_Maintenance",
+    "type": "undefined",
+    "title": "责任人维护",
+    "icon": "icon-network",
+    "url": "/internet_platform/person_liable_Maintenance",
+    "fileName": "internet_platform/person_liable_Maintenance",
+    "menu": true,
+    "navigation": true,
+    "sort": 999,
+    "platform": "pc",
+    "root": "$src/pc/pages/internet_platform/person_liable_Maintenance",
+    "compiled": true,
+    "module": "personLiableMaintenance",
+    "target": "_blank",
+    "open": 0
+}

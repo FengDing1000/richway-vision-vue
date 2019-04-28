@@ -1,0 +1,17 @@
+{
+    "id": "fa14dbb9-c133-f00a-a8a4-5bda822f875e",
+    "code": "internet_platform/basic_information/disaster_situation",
+    "type": "",
+    "title": "灾情信息",
+    "icon": "icon-network",
+    "url": "/internet_platform/basic_information/disaster_situation",
+    "fileName": "internet_platform/basic_information/disaster_situation",
+    "menu": true,
+    "navigation": true,
+    "sort": 5,
+    "root": "$src/pc/pages/internet_platform/basic_information/disaster_situation",
+    "compiled": true,
+    "module": "disasterSituation",
+    "target": "_single",
+    "open": 0
+}

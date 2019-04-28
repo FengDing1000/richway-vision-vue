@@ -1,0 +1,491 @@
+{
+    "iconList": [
+        {
+            "icon_code": "e201",
+            "icon_fontclass": "icon-right",
+            "icon_name": "下一页"
+        },
+        {
+            "icon_code": "e202",
+            "icon_fontclass": "icon-left",
+            "icon_name": "上一页"
+        },
+        {
+            "icon_code": "e203",
+            "icon_fontclass": "icon-coupon",
+            "icon_name": "优惠券"
+        },
+        {
+            "icon_code": "e204",
+            "icon_fontclass": "icon-login-after",
+            "icon_name": "登录后用户"
+        },
+        {
+            "icon_code": "e205",
+            "icon_fontclass": "icon-login-before",
+            "icon_name": "登录前用户"
+        },
+        {
+            "icon_code": "e206",
+            "icon_fontclass": "icon-tool",
+            "icon_name": "工具"
+        },
+        {
+            "icon_code": "e207",
+            "icon_fontclass": "icon-checkbox-check",
+            "icon_name": "复选框选中"
+        },
+        {
+            "icon_code": "e208",
+            "icon_fontclass": "icon-checkbox",
+            "icon_name": "复选框未选中"
+        },
+        {
+            "icon_code": "e209",
+            "icon_fontclass": "icon-radio-check",
+            "icon_name": "单选按钮选中"
+        },
+        {
+            "icon_code": "e210",
+            "icon_fontclass": "icon-radio",
+            "icon_name": "单选按钮未选中"
+        },
+        {
+            "icon_code": "e211",
+            "icon_fontclass": "icon-folder",
+            "icon_name": "文件夹"
+        },
+        {
+            "icon_code": "e212",
+            "icon_fontclass": "icon-record",
+            "icon_name": "记录"
+        },
+        {
+            "icon_code": "e213",
+            "icon_fontclass": "icon-links",
+            "icon_name": "链接"
+        },
+        {
+            "icon_code": "e214",
+            "icon_fontclass": "icon-top",
+            "icon_name": "置顶"
+        },
+        {
+            "icon_code": "e215",
+            "icon_fontclass": "icon-date",
+            "icon_name": "日期"
+        },
+        {
+            "icon_code": "e216",
+            "icon_fontclass": "icon-about",
+            "icon_name": "关于"
+        },
+        {
+            "icon_code": "e217",
+            "icon_fontclass": "icon-up-arrow",
+            "icon_name": "箭头 向上"
+        },
+        {
+            "icon_code": "e218",
+            "icon_fontclass": "icon-down-arrow",
+            "icon_name": "箭头 向下"
+        },
+        {
+            "icon_code": "e219",
+            "icon_fontclass": "icon-del",
+            "icon_name": "删除"
+        },
+        {
+            "icon_code": "e220",
+            "icon_fontclass": "icon-edit",
+            "icon_name": "编辑"
+        },
+        {
+            "icon_code": "e221",
+            "icon_fontclass": "icon-add",
+            "icon_name": "添加"
+        },
+        {
+            "icon_code": "e222",
+            "icon_fontclass": "icon-tree",
+            "icon_name": "收藏"
+        },
+        {
+            "icon_code": "e223",
+            "icon_fontclass": "icon-left-arrow",
+            "icon_name": "箭头 向左"
+        },
+        {
+            "icon_code": "e224",
+            "icon_fontclass": "icon-right-arrow",
+            "icon_name": "箭头 向右"
+        },
+        {
+            "icon_code": "e225",
+            "icon_fontclass": "icon-refresh",
+            "icon_name": "刷新"
+        },
+        {
+            "icon_code": "e226",
+            "icon_fontclass": "icon-loading",
+            "icon_name": "加载"
+        },
+        {
+            "icon_code": "e227",
+            "icon_fontclass": "icon-star",
+            "icon_name": "星星"
+        },
+        {
+            "icon_code": "e228",
+            "icon_fontclass": "icon-setting",
+            "icon_name": "设置"
+        },
+        {
+            "icon_code": "e229",
+            "icon_fontclass": "icon-share",
+            "icon_name": "分享"
+        },
+        {
+            "icon_code": "e230",
+            "icon_fontclass": "icon-search",
+            "icon_name": "查询"
+        },
+        {
+            "icon_code": "e231",
+            "icon_fontclass": "icon-voice",
+            "icon_name": "喇叭"
+        },
+        {
+            "icon_code": "e232",
+            "icon_fontclass": "icon-print",
+            "icon_name": "打印"
+        },
+        {
+            "icon_code": "e233",
+            "icon_fontclass": "icon-return",
+            "icon_name": "返回"
+        },
+        {
+            "icon_code": "e234",
+            "icon_fontclass": "icon-order-sure",
+            "icon_name": "订单"
+        },
+        {
+            "icon_code": "e235",
+            "icon_fontclass": "icon-money",
+            "icon_name": "金钱"
+        },
+        {
+            "icon_code": "e236",
+            "icon_fontclass": "icon-eye-close",
+            "icon_name": "眼睛 闭合"
+        },
+        {
+            "icon_code": "e237",
+            "icon_fontclass": "icon-eye-open",
+            "icon_name": "眼睛 睁开"
+        },
+        {
+            "icon_code": "e238",
+            "icon_fontclass": "icon-location",
+            "icon_name": "定位"
+        },
+        {
+            "icon_code": "e239",
+            "icon_fontclass": "icon-network",
+            "icon_name": "网络"
+        },
+        {
+            "icon_code": "e240",
+            "icon_fontclass": "icon-close",
+            "icon_name": "关闭"
+        },
+        {
+            "icon_code": "e301",
+            "icon_fontclass": "icon-cloud",
+            "icon_name": "云"
+        },
+        {
+            "icon_code": "e302",
+            "icon_fontclass": "icon-fog",
+            "icon_name": "雾"
+        },
+        {
+            "icon_code": "e303",
+            "icon_fontclass": "icon-rain",
+            "icon_name": "雨"
+        },
+        {
+            "icon_code": "e304",
+            "icon_fontclass": "icon-snow",
+            "icon_name": "雪"
+        },
+        {
+            "icon_code": "e305",
+            "icon_fontclass": "icon-sunshine",
+            "icon_name": "晴天"
+        },
+        {
+            "icon_code": "e401",
+            "icon_fontclass": "icon-full-screen",
+            "icon_name": "全屏"
+        },
+        {
+            "icon_code": "e402",
+            "icon_fontclass": "icon-layer",
+            "icon_name": "图层"
+        },
+        {
+            "icon_code": "e403",
+            "icon_fontclass": "icon-aim",
+            "icon_name": "瞄准"
+        },
+        {
+            "icon_code": "e404",
+            "icon_fontclass": "icon-area",
+            "icon_name": "测试面积"
+        },
+        {
+            "icon_code": "e405",
+            "icon_fontclass": "icon-distance",
+            "icon_name": "测试距离"
+        },
+        {
+            "icon_code": "e406",
+            "icon_fontclass": "icon-plus",
+            "icon_name": "加"
+        },
+        {
+            "icon_code": "e407",
+            "icon_fontclass": "icon-reduce",
+            "icon_name": "减"
+        },
+        {
+            "icon_code": "e408",
+            "icon_fontclass": "icon-road",
+            "icon_name": "道路"
+        },
+        {
+            "icon_code": "e409",
+            "icon_fontclass": "icon-satellite",
+            "icon_name": "卫星"
+        },
+        {
+            "icon_code": "e410",
+            "icon_fontclass": "icon-sign-out",
+            "icon_name": "退出"
+        },
+        {
+            "icon_code": "e411",
+            "icon_fontclass": "icon-list",
+            "icon_name": "列表"
+        },
+        {
+            "icon_code": "e412",
+            "icon_fontclass": "icon-auth",
+            "icon_name": "授权"
+        },
+        {
+            "icon_code": "e413",
+            "icon_fontclass": "icon-edit-1",
+            "icon_name": "编辑"
+        },
+        {
+            "icon_code": "e414",
+            "icon_fontclass": "icon-group",
+            "icon_name": "分组"
+        },
+        {
+            "icon_code": "e415",
+            "icon_fontclass": "icon-phone",
+            "icon_name": "手机"
+        },
+        {
+            "icon_code": "e416",
+            "icon_fontclass": "icon-gear-group",
+            "icon_name": "齿轮组"
+        },
+        {
+            "icon_code": "e417",
+            "icon_fontclass": "icon-paint-brush",
+            "icon_name": "画笔"
+        },
+        {
+            "icon_code": "e418",
+            "icon_fontclass": "icon-email",
+            "icon_name": "邮箱"
+        },
+        {
+            "icon_code": "e419",
+            "icon_fontclass": "icon-fax",
+            "icon_name": "传真"
+        },
+        {
+            "icon_code": "e420",
+            "icon_fontclass": "icon-monitor",
+            "icon_name": "监视"
+        },
+        {
+            "icon_code": "e421",
+            "icon_fontclass": "icon-warn",
+            "icon_name": "预警"
+        },
+        {
+            "icon_code": "e422",
+            "icon_fontclass": "icon-sys",
+            "icon_name": "系统平台"
+        },
+        {
+            "icon_code": "e423",
+            "icon_fontclass": "icon-analysis",
+            "icon_name": "分析"
+        },
+        {
+            "icon_code": "e424",
+            "icon_fontclass": "icon-exit-full",
+            "icon_name": "退出全屏"
+        },
+        {
+            "icon_code": "e425",
+            "icon_fontclass": "icon-chart-line",
+            "icon_name": "图表-折线图"
+        },
+        {
+            "icon_code": "e426",
+            "icon_fontclass": "icon-chart-pie",
+            "icon_name": "图表-饼图"
+        },
+        {
+            "icon_code": "e427",
+            "icon_fontclass": "icon-chart-bar",
+            "icon_name": "图表-柱状图"
+        },
+        {
+            "icon_code": "e428",
+            "icon_fontclass": "icon-power-station",
+            "icon_name": "水电站"
+        },
+        {
+            "icon_code": "e429",
+            "icon_fontclass": "icon-warn-1",
+            "icon_name": "警告"
+        },
+        {
+            "icon_code": "e430",
+            "icon_fontclass": "icon-reservoir",
+            "icon_name": "水库"
+        },
+        {
+            "icon_code": "e431",
+            "icon_fontclass": "icon-sluice",
+            "icon_name": "水闸"
+        },
+        {
+            "icon_code": "e432",
+            "icon_fontclass": "icon-shebei",
+            "icon_name": "设备"
+        },
+        {
+            "icon_code": "e433",
+            "icon_fontclass": "icon-site",
+            "icon_name": "站点"
+        },
+        {
+            "icon_code": "e434",
+            "icon_fontclass": "icon-water",
+            "icon_name": "水"
+        },
+
+
+        {
+            "icon_code": "e450",
+            "icon_fontclass": "icon-camera-1",
+            "icon_name": "摄像机"
+        },
+        {
+            "icon_code": "e451",
+            "icon_fontclass": "icon-camera-2",
+            "icon_name": "相机"
+        },
+        {
+            "icon_code": "e449",
+            "icon_fontclass": "icon-company",
+            "icon_name": "单位"
+        },
+        {
+            "icon_code": "e447",
+            "icon_fontclass": "icon-enclosure",
+            "icon_name": "围栏"
+        },
+        {
+            "icon_code": "e448",
+            "icon_fontclass": "icon-fire-hydrant",
+            "icon_name": "消防栓"
+        },
+        {
+            "icon_code": "e446",
+            "icon_fontclass": "icon-flow",
+            "icon_name": "流量"
+        },
+        {
+            "icon_code": "e444",
+            "icon_fontclass": "icon-operation",
+            "icon_name": "运维"
+        },
+        {
+            "icon_code": "e445",
+            "icon_fontclass": "icon-personnel",
+            "icon_name": "人员"
+        },
+        {
+            "icon_code": "e443",
+            "icon_fontclass": "icon-pool",
+            "icon_name": "水池"
+        },
+        {
+            "icon_code": "e441",
+            "icon_fontclass": "icon-pumping-station",
+            "icon_name": "泵站"
+        },
+        {
+            "icon_code": "e442",
+            "icon_fontclass": "icon-robot",
+            "icon_name": "机器人"
+        },
+        {
+            "icon_code": "e440",
+            "icon_fontclass": "icon-sewage",
+            "icon_name": "污水处理厂"
+        },
+        {
+            "icon_code": "e435",
+            "icon_fontclass": "icon-shower",
+            "icon_name": "淋浴"
+        },
+        {
+            "icon_code": "e452",
+            "icon_fontclass": "icon-well-cover",
+            "icon_name": "井盖"
+        },
+        {
+            "icon_code": "e453",
+            "icon_fontclass": "icon-aircraft",
+            "icon_name": "飞机"
+        },
+        {
+            "icon_code": "e454",
+            "icon_fontclass": "icon-water-level",
+            "icon_name": "水位站"
+        },
+        {
+            "icon_code": "e455",
+            "icon_fontclass": "icon-lake",
+            "icon_name": "湖泊"
+        },
+        {
+            "icon_code": "e456",
+            "icon_fontclass": "icon-water1",
+            "icon_name": "水滴"
+        }
+    ]
+}

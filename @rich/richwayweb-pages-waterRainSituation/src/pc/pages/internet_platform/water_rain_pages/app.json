@@ -1,0 +1,17 @@
+{
+    "id": "21818d4f-f133-f00d-7362-042b60a4c0f2",
+    "code": "internet_platform/water_rain_pages",
+    "type": "",
+    "title": "雨水情",
+    "icon": "menu_water_rain",
+    "url": "/internet_platform/water_rain_pages",
+    "fileName": "internet_platform/water_rain_pages",
+    "menu": true,
+    "navigation": true,
+    "sort": 999,
+    "root": "$src/pc/pages/internet_platform/water_rain_pages",
+    "compiled": true,
+    "module": "waterRainPages",
+    "target": "_single",
+    "open": 0
+}

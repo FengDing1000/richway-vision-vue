@@ -1,0 +1,17 @@
+{
+    "id": "2292ce66-7133-f00a-a8a4-5bcaf2a537b4",
+    "code": "internet_platform/basic_information/investigation_evaluate/Analysis_Achievements",
+    "type": "",
+    "title": "分析评价成果",
+    "icon": "icon-network",
+    "url": "/internet_platform/basic_information/investigation_evaluate/Analysis_Achievements",
+    "fileName": "internet_platform/basic_information/investigation_evaluate/Analysis_Achievements",
+    "menu": true,
+    "navigation": true,
+    "sort": 2,
+    "root": "$src/pc/pages/internet_platform/basic_information/investigation_evaluate/Analysis_Achievements",
+    "compiled": true,
+    "module": "AnalysisAchievements",
+    "target": "_single",
+    "open": 0
+}

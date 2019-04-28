@@ -1,0 +1,37 @@
+{
+    "title": {
+        "text": "降雨信息(雨量单位:mm)"
+    },
+    "color": [
+        "#3398DB","#F8CF7A"
+    ],
+    "tooltip": {
+        "trigger": "axis",
+        "axisPointer": {
+            "type": "shadow"
+        }
+    },
+    "grid": {
+        "left": "3%",
+        "right": "4%",
+        "bottom": "3%",
+        "containLabel": true
+    },
+    "xAxis": [
+        {
+            "type": "category",
+            "data": [],
+            "axisTick": {
+                "alignWithLabel": true
+            }
+        }
+    ],
+    "yAxis": [
+        {
+            "type": "value",
+            "name": "降雨量(mm)"
+        }
+    ],
+    "series": [
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "node",
+      "script": "app.js",
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "error_file": "NULL",
+      "out_file": "NULL",
+      "pid_file": "NULL",
+      "merge_logs": false,
+      "autorestart": true,
+      "vizion": false
+    }
+  ]
+}
